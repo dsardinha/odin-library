@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form > * {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+}
+
+button {
+    width: 150px
+}
+
+.books-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book-info {
+    width: 300px;
+    background-color: green;
+    border-radius: 5px;
+    margin: 10px;
+    color: white;
+}
+
+.book-info > div {
+    margin: 15px
+}
+
+.hidden {
+    display: none;
+}

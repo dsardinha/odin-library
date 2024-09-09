@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="javascript.js" defer></script>
+</head>
+<body>
+    <div class="books-container"></div>
+    <button class="new-book-btn">New Book</button>
+    <form class="new-book-form hidden">
+        <div class="title">
+            <label for="title">*Title:</label>
+            <input class="title-input" type="text" name="title" id="title" required>
+        </div>
+        <div class="author">
+            <label for="author">*Author:</label>
+            <input class="author-input" type="text" name="title" id="title" required>
+        </div>
+        <div class="pages">
+            <label for="pages">*Pages:</label>
+            <input class="pages-input" type="number" name="title" id="title" required>
+        </div>
+        <div class="read">
+            <label for="read">Read:</label>
+            <select class="read-select" name="read" id="read">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+        <button class="submit-button" type="submit">Submit</button>
+    </form>
+</body>
+</html>
