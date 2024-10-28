@@ -1,1 +1,2 @@
-# odin-library
+#Simple library
+Small & simple library app
