@@ -1,2 +1,2 @@
-#Simple library
+# simple-library
 Small & simple library app
